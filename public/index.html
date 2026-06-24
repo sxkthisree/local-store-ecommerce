@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sakthi Local Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🛒 Sakthi Local Store</h1>
+<p>Fresh Groceries Delivered To Your Doorstep</p>
+</header>
+
+<h2 class="section-title">Featured Products</h2>
+
+<div class="products">
+
+<div class="product">
+<div class="emoji">🍚</div>
+<h3>Basmati Rice</h3>
+<p>Premium Quality Rice</p>
+<h4>₹120/kg</h4>
+<button onclick="addToCart('Basmati Rice')">Add to Cart</button>
+</div>
+
+<div class="product">
+<div class="emoji">🥛</div>
+<h3>Fresh Milk</h3>
+<p>Farm Fresh Milk</p>
+<h4>₹35/L</h4>
+<button onclick="addToCart('Fresh Milk')">Add to Cart</button>
+</div>
+
+<div class="product">
+<div class="emoji">🍞</div>
+<h3>Bread</h3>
+<p>Fresh Bakery Bread</p>
+<h4>₹40</h4>
+<button onclick="addToCart('Bread')">Add to Cart</button>
+</div>
+
+<div class="product">
+<div class="emoji">🍪</div>
+<h3>Biscuits</h3>
+<p>Crispy & Tasty</p>
+<h4>₹25</h4>
+<button onclick="addToCart('Biscuits')">Add to Cart</button>
+</div>
+
+<div class="product">
+<div class="emoji">🍵</div>
+<h3>Tata Tea</h3>
+<p>Strong Tea Leaves</p>
+<h4>₹180</h4>
+<button onclick="addToCart('Tata Tea')">Add to Cart</button>
+</div>
+
+<div class="product">
+<div class="emoji">🛢️</div>
+<h3>Sunflower Oil</h3>
+<p>Healthy Cooking Oil</p>
+<h4>₹180/L</h4>
+<button onclick="addToCart('Sunflower Oil')">Add to Cart</button>
+</div>
+
+</div>
+
+<div class="cart-box">
+<h2>🛍 Shopping Cart</h2>
+<ul id="cart"></ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
