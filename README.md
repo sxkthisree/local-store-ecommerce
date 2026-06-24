@@ -23,24 +23,6 @@ This project enables customers to browse products and add items to a shopping ca
 * Node.js
 * Express.js
 
-## 📂 Project Structure
-
-local-store-ecommerce
-
-├── public
-
-│ ├── index.html
-
-│ ├── style.css
-
-│ └── script.js
-
-├── server.js
-
-├── package.json
-
-└── .gitignore
-
 ## 🚀 Installation
 
 1. Clone the repository
